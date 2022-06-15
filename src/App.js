@@ -151,8 +151,3 @@ const App = () => {
 }
 
 export default App;
-
-/*
-git config --global user.name "dumpydev"
-git config --global user.email "dumpyee09@gmail.com"
-*/
