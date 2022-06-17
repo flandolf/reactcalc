@@ -117,6 +117,13 @@ const App = () => {
 				break;
 			case '=':
 				calculate();
+				break;
+			case '(':
+				updateCalc('(');
+				break;
+			case ')':
+				updateCalc(')');
+				break;
 		}
 	};
 
@@ -132,6 +139,8 @@ const App = () => {
 					<button onClick={() => { updateCalc('*') }}>*</button>
 					<button onClick={() => { updateCalc('+') }}>+</button>
 					<button onClick={() => { updateCalc('-') }}>-</button>
+					<button onClick={() => { updateCalc('(') }}>(</button>
+					<button onClick={() => { updateCalc(')') }}>)</button>
 
 					<button onClick={() => { deleteLast() }}>DEL</button>
 					<button onClick={() => { clear() }}>AC</button>
