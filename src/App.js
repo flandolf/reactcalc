@@ -124,6 +124,9 @@ const App = () => {
 			case ')':
 				updateCalc(')');
 				break;
+			case 'Backspace':
+				deleteLast();
+				break;
 		}
 	};
 

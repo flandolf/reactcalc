@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 :root {
-  --color-primary: #0071d4;
-  --color-secondary: #23bfea;
+  --color-primary: #d48a00;
+  --color-secondary: #eabc23;
   --dark: rgb(21, 21, 21);
   --light: rgb(189, 189, 189);
   background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
